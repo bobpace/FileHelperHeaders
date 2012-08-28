@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileHelperHeaders", "FileHelperHeaders\FileHelperHeaders.csproj", "{4686A07D-703E-4FBA-B185-492A055B3B60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileHelperHeaders.Tests", "FileHelperHeaders.Tests\FileHelperHeaders.Tests.csproj", "{13468E51-6A21-46E0-9512-E4D78E07C43D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4686A07D-703E-4FBA-B185-492A055B3B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4686A07D-703E-4FBA-B185-492A055B3B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4686A07D-703E-4FBA-B185-492A055B3B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4686A07D-703E-4FBA-B185-492A055B3B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13468E51-6A21-46E0-9512-E4D78E07C43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13468E51-6A21-46E0-9512-E4D78E07C43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13468E51-6A21-46E0-9512-E4D78E07C43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13468E51-6A21-46E0-9512-E4D78E07C43D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
