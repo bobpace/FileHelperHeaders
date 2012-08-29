@@ -22,6 +22,7 @@ namespace FileHelperHeaders.Tests
             results[0].FirstName.ShouldEqual("Bob");
             results[0].LastName.ShouldEqual("Pace");
             results[0].NumberOfPeopleInParty.ShouldEqual(1);
+            results[1].NumberOfPeopleInParty.ShouldEqual(0);
         }
 
         [DelimitedRecord(",")]
@@ -30,6 +31,7 @@ namespace FileHelperHeaders.Tests
             public string PhoneNumber;
             public string FirstName;
             public string LastName;
+            [FieldNullValue(0)]
             public int NumberOfPeopleInParty;
         }
     }
