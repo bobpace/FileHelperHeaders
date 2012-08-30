@@ -10,7 +10,7 @@ namespace FileHelperHeaders.Tests
     public class CsvFileParserTests : InteractionContext<CsvFileParser>
     {
         [Test]
-        public void Test()
+        public void Can_parse_file_with_headers_that_wont_parse_as_valid_properties()
         {
             var filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "testData.csv");
             //const string headerText = "Phone#,FirstName,LastName,#OfPeopleInParty";

@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="CsvFileParser.cs" />
     <Compile Include="ICsvFileParser.cs" />
+    <Compile Include="IOutParameter.cs" />
+    <Compile Include="OutParameter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
