@@ -4,7 +4,7 @@ using NUnit.Framework;
 
 namespace FileHelperHeaders.Tests
 {
-    public class VendorSpecificRowTests
+    public class VendorTests
     {
         [Test]
         public void Can_pull_rank_and_url_by_vendor()

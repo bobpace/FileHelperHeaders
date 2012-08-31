@@ -75,7 +75,7 @@
     <Compile Include="CsvFileParserTests.cs" />
     <Compile Include="OutParameterTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VendorSpecificRowTests.cs" />
+    <Compile Include="VendorTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FileHelperHeaders\FileHelperHeaders.csproj">
