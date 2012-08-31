@@ -14,6 +14,7 @@ namespace FileHelperHeaders.Tests
             outputParameter.Expect(x => x.WhyUseThese(out value)).OutRef(true);
             var result = ClassUnderTest.GetOutputParameter();
             result.ShouldBeTrue();
+            outputParameter.VerifyAllExpectations();
         }
     }
 
